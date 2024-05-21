@@ -16,4 +16,4 @@ Terraform configuration files to provision an EKS cluster on AWS for RC Support.
 Add the created EKS cluster configuration to your `kube-config` to interact with the cluster using `kubectl`
 ```bash
 aws eks --region us-east-2 update-kubeconfig --name support-eks
-``
+```
